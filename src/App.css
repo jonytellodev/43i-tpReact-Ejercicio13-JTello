@@ -1,16 +1,10 @@
-:root {
+#root {
   background-image: url("../public/bg-TW.jpg");
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-.fixFooter {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.bgNavTW {
-  background-color: #666666;
+footer {
+  margin-top: auto;
 }
